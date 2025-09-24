@@ -18,10 +18,54 @@
     
     sourceWidth="800" sourceHeight="600" displayWidth="1280" displayHeight="720">
 
-      
-        <a-marker type='barcode' value='0'>
+     <a-assets>
+      <img id="image" src="vase alvar aalto.jpg">
+    </a-assets>
+
+      <a-marker type='barcode' value='35'>
+
+          <a-image src="#image"
+           rotation="270 0 0"
+           width="2"
+           height="2"></a-image>
    
-            <a-text value="Hello !" 
+          <a-text value="Translucide !" 
+            side="double" position = "-6 0 0" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Ondulant !" 
+            side="double" position = "6 0 -1" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Épuré !" 
+            side="double" position = "0 6 -1" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Fluide !" 
+            side="double" position = "0 -6 -1" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Fluide !" 
+            side="double" position = "3 -3 -1" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Organique !" 
+            side="double" position = "-3 3 -1" rotation="270 0 0" 
+            width="8"
+            color="red" align="center" >
+            </a-text>
+
+          <a-text value="Lisse !" 
             side="double" position = "0 0 -1" rotation="270 0 0" 
             width="8"
             color="red" align="center" >
